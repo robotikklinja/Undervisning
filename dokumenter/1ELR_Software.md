@@ -12,4 +12,3 @@ Nødvendig software som trengs:
 | Automasjonssystemer     | CODESYS | v.? | https://www.codesys.com/ |
 | Automasjonssystemer     | Autodesk Fusion 360 Student  |2.0.6231 | https://www.autodesk.com/products/fusion-360/students-teachers-educators |
 | Automasjonssystemer     | FreeCAD  | v.0.18.3 eller senere | https://www.freecadweb.org/ |
-| Automasjonssystemer     | Norsk Industri sin Læremiddelpakke  |  |  |
