@@ -22,3 +22,12 @@
     - Bokstavkoder for Utstyr
     - Arrengementstegning, Rekkeklemmetabell, internt koblingstabell, etc.
     - Grafiske symboler
+   
+ - To be continued (status per. 26. aug. 2019)...
+    
+# Programmerbare Logiske Styringer av Dag Håkon Hanssen: 
+
+- Kap. 5.2.2 Funksjonsblokk Diagram
+- Kap. 5.2.3 Ladderdiagram
+- Kap. 1 Om PLS-er
+- Kap. 2 Digitale Inn- og Utganger
