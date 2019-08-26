@@ -1,4 +1,4 @@
-# Software for 1ELR skoleåret 2019/2020 basert på PC-ene som er utlevert (som i utgangspunktet ligger langt under minste kravspesifikasjon satt av faglærerene)
+# Software for 1ELR skoleåret 2019/2020 basert på PC-ene som er utlevert (som ligger langt under minste kravspesifikasjon satt av faglærerene)
 
 Nødvendig software som trengs:
 
