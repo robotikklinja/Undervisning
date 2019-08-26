@@ -3,6 +3,7 @@
 Nødvendig software som trengs:
 
 |  Fag:      | Software:          | Versjon:  |Link / Hvor den lastes ned: |
+|------------|--------------------|-----------|----------------------------|
 | Automasjonssystemer / El.energi|PCSCHEMATIC| | Itslearning (Kuben internt) |
 | Automasjonssystemer / El.energi|EPLAN| EPLAN Education Version 2.8 | https://www.eplan.education/en/eplan-education |
 | Automasjonssystemer     | Aruduino IDE |v. 1.8.9 eller senere | https://www.arduino.cc/en/Main/Software |
