@@ -8,7 +8,6 @@ Nødvendig software som trengs:
 | Automasjonssystemer / El.energi|PCSCHEMATIC| Automation Skole v.20 | Itslearning (Kuben internt) |Ja, kan evt. brukes i tillegg med EPLAN |
 | Automasjonssystemer     | Aruduino IDE |v. 1.8.9 eller senere | https://www.arduino.cc/en/Main/Software | Ja |
 | Automasjonssystemer     | Siemens LOGO! Soft |v.8.2? | Itslearning (Kuben internt) | Ja |
-
 | Automasjonssystemer     | Autodesk Fusion 360 Student  |2.0.6231 | https://www.autodesk.com/products/fusion-360/students-teachers-educators | Ja, men skole-PC'en har problemer med å takle dette |
 | Automasjonssystemer     | FreeCAD  | v.0.18.3 eller senere | https://www.freecadweb.org/ | Ja, men skole-PC'en har problemer med å takle dette |
 | Automasjonssystemer     | Norsk Industri sin Læremiddelpakke  |  |  |
