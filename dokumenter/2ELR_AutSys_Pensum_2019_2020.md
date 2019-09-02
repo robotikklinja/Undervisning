@@ -31,3 +31,12 @@
 - Kap. 5.2.3 Ladderdiagram
 - Kap. 1 Om PLS-er
 - Kap. 2 Digitale Inn- og Utganger
+
+# Kompetanse
+- Symboler
+- Hoved-/styrestrøm
+    - Motoroppkobling
+- Bin->Dec->Bin
+- 2-tall->10tall->2tall
+- Kontaktor
+- powersupplyens oppbygning
