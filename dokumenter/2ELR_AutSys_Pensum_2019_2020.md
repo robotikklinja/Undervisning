@@ -40,3 +40,14 @@
 - 2-tall->10tall->2tall
 - Kontaktor
 - powersupplyens oppbygning
+- Arduino (programmering)
+    - Variabler
+        - Dec.
+        - int.
+        - bruke
+- Motorvern
+    - Brytere
+    - Relé
+- Sikringer
+- Kabeltyoer/tverrsnitt
+        
