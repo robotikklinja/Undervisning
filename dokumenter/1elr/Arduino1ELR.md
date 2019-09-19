@@ -2,7 +2,7 @@ Oversikt over Arduino'er:
 
 | Navn: |  Arduino Type:      | Versjon:          | Nr:  |
 |------------------|--------------------|-----------|-----------------------|
-| Kåre | Arduino Uno | Kina-hack |  | 
+| Kåre | Arduino Uno | Kina-hack | 36 | 
 | Sander | Arduino Uno | Kina-hack |  | 
 | Avani | Arduino Uno | Kina-hack | 59 |
 | Lars | Arduino Uno | Kina-hack |  |
