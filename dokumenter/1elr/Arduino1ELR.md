@@ -1,4 +1,4 @@
-Nødvendig software som trengs:
+Oversikt over Arduino'er:
 
 | Navn: |  Arduino Type:      | Versjon:          | Nr:  |
 |------------------|--------------------|-----------|-----------------------|
