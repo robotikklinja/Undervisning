@@ -6,7 +6,7 @@ Oversikt over Arduino'er:
 | Sander | Arduino Uno | Kina-hack |  | 
 | Avani | Arduino Uno | Kina-hack | 59 |
 | Lars | Arduino Uno | Kina-hack |  |
-| Felix | Arduino Uno | Kina-hack |  |
+| Felix | Arduino Uno | Kina-hack | 03 |
 | David | Arduino Uno | Kina-hack |  |
 | Herman | Arduino Uno | Kina-hack |  | 
 | Ola | Arduino Uno | Kina-hack |  | 
