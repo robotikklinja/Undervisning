@@ -17,4 +17,4 @@ Oversikt over Arduino'er:
 | Robin | Arduino Uno | Kina-hack |  |
 | Eirik | Arduino Uno | Kina-hack |  |
 | Hai | Arduino Uno | Kina-hack |  |
-| Elland | Arduino Uno | Kina-hack |  |
+| Elland | Arduino Uno | Kina-hack | 35 |
