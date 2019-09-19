@@ -11,7 +11,7 @@ Oversikt over Arduino'er:
 | Herman | Arduino Uno | Kina-hack | 58 | 
 | Ola | Arduino Uno | Kina-hack | 46 | 
 | Patrick | Arduino Uno | Kina-hack |  |
-| Thomas | Arduino Uno | Kina-hack |  |
+| Thomas | Arduino Uno | Kina-hack | 40 |
 | Johannes | Arduino Uno | Kina-hack | 39 |
 | Tobias | Arduino Uno | Kina-hack |  |
 | Robin | Arduino Uno | Kina-hack |  |
