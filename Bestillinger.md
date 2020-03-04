@@ -43,3 +43,8 @@ Fyll inn og oppdater om dere finner oppdaterte priser (send en pull-request)
 | Sandisk MicroSDXC Ultra (2stk!) | Komplett | 64GB | 953833 | https://www.komplett.no/product/953833/foto-video/minnekort-til-foto-video/sandisk-microsdxc-ultra-64gb | 135kr |
 | Raspberry Pi 4 Strømadapter USB-C (2 stk!) | Komplett | PSU til Raspberry PI 4, 5.1V / 3A, 1.5m |  1133588 | https://www.komplett.no/product/1133588/datautstyr/pc-komponenter/hovedkort/tilbehoer/raspberry-pi-4-stroemadapter-usb-c | 199kr per stk.
 | Philips 21.5" skjerm 223V5LHSB2 | Komplett | 1920x1080, 5ms, 10M:1, VGA/HDMI |  903229 | https://www.komplett.no/product/903229/datautstyr/skjermer/skjermer/philips-215-skjerm-223v5lhsb2 | 999kr
+
+# Transportbånd
+| Hva?                                                          | Leverandør                    | Type                     | Partnr. | Antall | Lenke | evt. Pris | Bilder evt. |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Digitale rele-utganger | Beckhoff | 4-channel relay output terminal 250 V AC/30 V DC | EL2634 | 2 stk. | https://beckhoff.com/ | | ![](https://github.com/robotikklinja/Transport/blob/master/Images/beckhoff%20EL2634.png)
