@@ -43,3 +43,9 @@ Fyll inn og oppdater om dere finner oppdaterte priser (send en pull-request)
 | Sandisk MicroSDXC Ultra (2stk!) | Komplett | 64GB | 953833 | https://www.komplett.no/product/953833/foto-video/minnekort-til-foto-video/sandisk-microsdxc-ultra-64gb | 135kr |
 | Raspberry Pi 4 Strømadapter USB-C (2 stk!) | Komplett | PSU til Raspberry PI 4, 5.1V / 3A, 1.5m |  1133588 | https://www.komplett.no/product/1133588/datautstyr/pc-komponenter/hovedkort/tilbehoer/raspberry-pi-4-stroemadapter-usb-c | 199kr per stk.
 | Philips 21.5" skjerm 223V5LHSB2 | Komplett | 1920x1080, 5ms, 10M:1, VGA/HDMI |  903229 | https://www.komplett.no/product/903229/datautstyr/skjermer/skjermer/philips-215-skjerm-223v5lhsb2 | 999kr
+
+## Veiecelle
+
+| Hva | Leverandør | Type | Partnummer | link |
+| --- | --- | --- | --- | --- |
+| Frekvensomformer | Beijer | BFI-E3-12-0043-1F12 | 61501 | https://www.beijerelectronics.com/en/Products/frequency-inverters/General___purpose___-___BFI___E3/BFI___E3___IP20/BFI-E3-12-0043-1F12 |
