@@ -49,5 +49,5 @@
     - Brytere
     - Relé
 - Sikringer
-- Kabeltyoer/tverrsnitt
+- Kabeltyper/tverrsnitt
         
