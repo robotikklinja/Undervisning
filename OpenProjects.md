@@ -57,7 +57,7 @@ Her kan man gjøre mye forksjelligt
 * Stable tårn med robot-algoritme, kloss-magasin finnes ferdig printet. 
 * Montere trykklyft til robot, vaccum og gripper.  
 * Modbus kommunikasjon til PLS, guide finns.
-* Integrere sikkerhets-utstyr: laserbarrier ![RoboComp](https://robocup.website/) Oslo oppgaven ![youtube](https://youtu.be/gx-mJjD3hwU)
+* Integrere sikkerhets-utstyr: laserbarrier [RoboComp](https://robocup.website/) Oslo oppgaven [youtube](https://youtu.be/gx-mJjD3hwU)
 * 3D-printe et hode til robot-kroppen som kommer. Ev motorisere det, legge til mic og kamera. 
 
 # Videreutvikle eller arbeide med ferdige stasjoner
@@ -95,32 +95,7 @@ Ferdigstille stajsonen. Mulighet at øve seg på regulering.
 
 Fordyping i regulering, HMI eller CNC eller 3D-printe moulds for å produsere ting med stasjonen. 
 
-Prøve lage ting med lav-temp plastik og leire. Inspirasjon ![Necromoulds](https://necromolds.com/)
-
-# Helt nye elev-stasjoner
-
-Vi har utstyret men har ikke begynt å bygge disse ennå
-
-### Fartskontroll av induksjonsmotor med DC-generator
-
-Bygge en regulerings-øvings-rigg der en induksjonsmotor genererer strøm.
-
-Oppskrift:
-* Koble en induksjonsmotor til en 24V DC-motor motor-akse-til-motor-akse. (pass på "snagging"-risiko)
-* DC-motoren blir en generator. 
-* Koble generatoren til en stor resistiv last via rele. (Har tre lastkombinasjoner, alternativt kan vi bruke solid state relay for å pulse)
-* Overvåke RPM til motoren, eller effekt over lasten og kompensere med PLS når lasten endres med rele og knapper
-
-Alternativt utførende er å bruke en stor BLDC som generator, då kan vi bruke en Solid state relay eller Solid state regulator for å dynamisk koble inn lasten. 
-
-### DC motor med hastighetsstyring
-
-Bygge en regulerings-øvings-rigg med 24V DC motor.
-
-Vi har:
-24VDC motor, Hall sensor for å måle RPM, og en tinnløs DC motor driver som vi kan PLS styre. 
-Koble motoren til en noe, et svingjul med brems eller en vifte så at vi får en trygg belastning vi kan endre litt på. 
-Bruke PLS for å lage en fartsholder som kompenserer for endring i belasting. 
+Prøve lage ting med lav-temp plastik og leire. Inspirasjon [Necromoulds](https://necromolds.com/)
 
 ## ARDUINO
 
@@ -191,4 +166,29 @@ Lurt at gjøre som utplassert på Beckoff for James
 https://github.com/robotikklinja/KUKA-KR6-R700-sixx
 
 https://github.com/robotikklinja/Beckhoff-PLS
+
+## Helt nye elev-stasjoner
+
+Vi har utstyret men har ikke begynt å bygge disse ennå
+
+### Fartskontroll av induksjonsmotor med DC-generator
+
+Bygge en regulerings-øvings-rigg der en induksjonsmotor genererer strøm.
+
+Oppskrift:
+* Koble en induksjonsmotor til en 24V DC-motor motor-akse-til-motor-akse. (pass på "snagging"-risiko)
+* DC-motoren blir en generator. 
+* Koble generatoren til en stor resistiv last via rele. (Har tre lastkombinasjoner, alternativt kan vi bruke solid state relay for å pulse)
+* Overvåke RPM til motoren, eller effekt over lasten og kompensere med PLS når lasten endres med rele og knapper
+
+Alternativt utførende er å bruke en stor BLDC som generator, då kan vi bruke en Solid state relay eller Solid state regulator for å dynamisk koble inn lasten. 
+
+### DC motor med hastighetsstyring
+
+Bygge en regulerings-øvings-rigg med 24V DC motor.
+
+Vi har:
+24VDC motor, Hall sensor for å måle RPM, og en tinnløs DC motor driver som vi kan PLS styre. 
+Koble motoren til en noe, et svingjul med brems eller en vifte så at vi får en trygg belastning vi kan endre litt på. 
+Bruke PLS for å lage en fartsholder som kompenserer for endring i belasting. 
 
