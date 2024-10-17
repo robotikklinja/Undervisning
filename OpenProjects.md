@@ -4,6 +4,8 @@ Vi har en hel del åpne prosjekter på robotikklinja. Dette er en grov oversikt.
 
 ## Hydralikk-anlegg
 
+![image](https://github.com/user-attachments/assets/a69ba6ce-b3d5-490a-924a-ad64a779c990)
+
 *Bygg et styreskap til vårt nye Hydralikk-anlegg!* 
 
 Minimum: Skåpet trenger en frekvensomformer og PLS for styring av en induksjonsmotor og to 24V ventiler. Knapp-boks og nødstop. 
@@ -13,6 +15,7 @@ Mer ønsket funksjoner:
 * Digitale eller analoge sensorer for å måle posisjon av stemplene med PLS. Har linjere sensorer og vinkelssensorer, det vanskelige er å montere dem på en trygg måte. 
 
 ## Trykkluft-stasjon
+![image](https://github.com/user-attachments/assets/14d59034-0faa-4cb8-8da0-21aee9e31cc0)
 
 * *Montere sylindrene så at de kan skyve en kloss rundt i en firkant. Styreskap finns allerede.* 
 * Ev bygge en egen ny mini-fabrikk. Finns massor med variert utstyr.
@@ -21,17 +24,29 @@ Mer ønsket funksjoner:
 
 ### Heis-modell
 
+![image](https://github.com/user-attachments/assets/0ce8b8a7-be36-4e89-867d-8e5f92a86d00)
+
 Montere delene og bygge kontrollskap for en 3 etg heis Vi har deler. 
 
 Vi har delene, du designer, bygger og kobler.
 
 * Induksjonsmotor med frekvensomformer
+* Rør som heisekanal
+* Fiskeline som heisekabel
 * Kapasitive sensorer
 * Encoder
 * Knappeboks
 * El-Skåp med PLS
 
+Vi kan også bygge en 24V-versjon av denne! 
+Då monterer vi en 24VDC motor på toppen av et skap og heise-røret på siden.
+![image](https://github.com/user-attachments/assets/d44206a3-b5d4-41bc-8aab-f54606c5475b)
+Referensebilde av en annen heisemodell, deres knappe og koblingspanel blir då vårt skap.
+![image](https://github.com/user-attachments/assets/b2f03227-33d8-43fe-a70c-922f3bc325ee)
+
+Vår 24VDC-motor
 ### Dør modell med laserbarrier
+![image](https://github.com/user-attachments/assets/d8f04625-2352-4ee9-9ac7-d843989e5148)
 
 Bygge en dør-modell og kontrollskap. Denne kan etterpå bli brukt av elevene som "garasjeport" eller "heisdør".  
 
@@ -47,6 +62,7 @@ Vi har delene, du designer, bygger og kobler. Du trenger å gjøre utviklingsarb
 * PLS
 
  # UR robots
+![image](https://github.com/user-attachments/assets/b293534f-005e-49bb-a589-1b56af7ccf66)
 
 Her kan man gjøre mye forksjelligt
 
@@ -100,12 +116,15 @@ Prøve lage ting med lav-temp plastik og leire. Inspirasjon [Necromoulds](https:
 ## ARDUINO
 
 ### Mobil robot(gressklipper) med LIDAR
- 
+
+
  Vi har kjøpt inn to LIDAR sensorer som vi ønsker å montere på robotgressklipperen. Først bør vi teste dem med PC / arduino. 
  
  Roboten trenger en fastmontert "hjerne", laderutine og online dokumentasjon med forslag på elevoppgaver
  
  Styres med ESP32 med display. Wifi-microkontroller som kan ta arduino-kode
+
+https://www.aliexpress.com/item/1005004698244864.html
 
 ### Hector CNC
 
