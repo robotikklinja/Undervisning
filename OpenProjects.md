@@ -1,5 +1,5 @@
 # Oversikt åpne prosjekter
-Vi har en hel del åpne prosjekter på robotikklinja. Dette er en grov oversikt. Jakob supplerer gjerne med mer informasjon etter intresse. Spør på teams om det dere er intressert i så fyller jeg på her.
+Vi har en hel del åpne prosjekter på robotikklinja. Dette er en grov oversikt. Jakob.Rockenberger@Osloskolen.no supplerer gjerne med mer informasjon etter intresse. Spør på teams/mail om det dere er intressert i så fyller jeg på her.
 
 
 ## Hydralikk-anlegg
@@ -17,7 +17,10 @@ Mer ønsket funksjoner:
 ## Trykkluft-stasjon
 ![image](https://github.com/user-attachments/assets/14d59034-0faa-4cb8-8da0-21aee9e31cc0)
 
-* *Montere sylindrene så at de kan skyve en kloss rundt i en firkant. Styreskap finns allerede.* 
+* *Montere sylindrene så at de kan skyve en kloss rundt i en firkant. Styreskap finns allerede.*
+
+* ![image](https://github.com/user-attachments/assets/fb67233e-0b92-4167-af00-9c7476599a90)
+
 * Ev bygge en egen ny mini-fabrikk. Finns massor med variert utstyr.
 
 ## Heis-system
@@ -46,20 +49,31 @@ Referensebilde av en annen heisemodell, deres knappe og koblingspanel blir då v
 
 Vår 24VDC-motor
 ### Dør modell med laserbarrier
-![image](https://github.com/user-attachments/assets/d8f04625-2352-4ee9-9ac7-d843989e5148)
 
-Bygge en dør-modell og kontrollskap. Denne kan etterpå bli brukt av elevene som "garasjeport" eller "heisdør".  
+Bygge en dør-modell (uten kontrollskap). Denne kan etterpå bli brukt av elevene som "garasjeport" eller "heisdør".  
 
-Vi har delene, du designer, bygger og kobler. Du trenger å gjøre utviklingsarbeid i fusion360 og 3D-printing.
+Vi monterer giret DC-motor bak en blikkplate og 3D-printer en "viser" som på en analog klokkke som kan vippe endebryterne. 
 
-* Linjer føring
+Vi har delene, du designer, bygger og kobler. Du trenger å gjøre litt utviklingsarbeid i fusion360 og 3D-printing.
+
 * DC motor 24V (relestyrt)
-* 3D printe rack and pinion
 * Endebryter
 * Laserbarrier med reflektor
 * PIR sensor
 * Knappeboks
-* PLS
+* PIR sensor
+
+Alt kobles til rekkeklemmmer så kan elever koble opp mot det og lage egen kode.
+
+#### Skyvedør
+Mulig videreutvikling er å lage en skyvedør. Vi kan bruke linjere glidelager eller [alu profiler](https://www.kjell.com/no/produkter/elektro-og-verktoy/elektronikk/aluminiumprofiler/ratrig-startpakke-med-12-aluminiumsprofiler-p88158)
+
+Ekstra utstyr:
+
+* Linjer føring
+* 3D printe rack and pinion
+  
+![image](https://github.com/user-attachments/assets/d8f04625-2352-4ee9-9ac7-d843989e5148)
 
  # UR robots
 ![image](https://github.com/user-attachments/assets/b293534f-005e-49bb-a589-1b56af7ccf66)
@@ -106,6 +120,44 @@ Ferdigstille stajsonen. Mulighet at øve seg på regulering.
 * Sikkre varmekabelen, nå er tapen en brannrisk.
 * Prøve Av/På regulering med PLS. Datalogging, energibruk og temeperatur. 
 * Lage elevoppgaver.
+
+### Liten varme-av-på-reguleringsstasjon
+
+Liten varmeregulerings-rigg for av-på regulering, uten egen PLS. Kan også kobles til ekstern regulator!
+
+Kjølevifte, kjøleribber, heatpipe tar bort varme (nå 12V, men kan byttes)
+
+PTC-element tilfør varme
+
+PT100 temp-måler 
+
+![image](https://github.com/user-attachments/assets/bd061eec-f5e8-47e7-b773-66e7f2cb250e)
+
+![image](https://github.com/user-attachments/assets/3163726a-ccd7-482a-ac70-ea2ad434deda)
+
+Legg til en PT100 termistor, signalomvandler og koble til rekkeklemmer så kan elever koble sitt brett til og gjøre av-på regulering av vifte og varme-element
+
+Aliexpress PTC-varmeelement, 24V blir maks 70-80C 
+* [4x 24V 70degree](https://www.aliexpress.com/item/1005002967095824.html )
+* [3x 60x28mm, 24V 80C](https://www.aliexpress.com/item/4000479062611.html)
+
+[Termostat med SS-regulator](https://www.aliexpress.com/item/32857142330.html)
+
+![image](https://github.com/user-attachments/assets/f6e8bd55-8fed-4f95-aa01-9d60eba3e571)
+
+### Styresystem-øvningsbrett
+
+Øvningsbrett med PI&D diagram uten PLS. Elevene lager PLS program som styrer processen med av på regulering. Brummundal har ferdige oppgaer
+
+Repliker disse, lage platem laminer illustrasjon, fest bryter og lys, koble til rekkeklemmer
+
+![image](https://github.com/user-attachments/assets/1be2165a-6874-4dd4-971a-70de0d5af279)
+
+![image](https://github.com/user-attachments/assets/a1b14710-ad83-4c54-a700-e6e6458a989b)
+
+![image](https://github.com/user-attachments/assets/c397cb83-510f-4f1e-b5ee-7a40f784280a)
+
+Kan være en elevbedrift! 
 
 ### Varme-reguleringsstasjon
 
