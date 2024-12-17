@@ -43,11 +43,27 @@ Vi har delene, du designer, bygger og kobler.
 
 Vi kan også bygge en 24V-versjon av denne! 
 Då monterer vi en 24VDC motor på toppen av et skap og heise-røret på siden.
+
 ![image](https://github.com/user-attachments/assets/d44206a3-b5d4-41bc-8aab-f54606c5475b)
+
 Referensebilde av en annen heisemodell, deres knappe og koblingspanel blir då vårt skap.
+
 ![image](https://github.com/user-attachments/assets/b2f03227-33d8-43fe-a70c-922f3bc325ee)
 
-Vår 24VDC-motor
+Våre store 24VDC-motorer, uten gir. Må nok bruke motordriver for å senke farta (vi har i auto-skuff i elektronikk-skap).
+
+Vi har også små girete motorer
+
+![image](https://github.com/user-attachments/assets/b0fea8ad-9ad9-4329-b885-08cefd66697b)
+
+JGY370 Worm Gear Motor DC 12V 8MM D7 Axis Gearbox Reducer 6V 24V Self-locking Reverse Gearbox Length 25MM Low Speed Micro Motor
+24V Bracket Motor, 150RPM, Other, CHINA
+US $12.50x1
+
+JGY370 Worm Gear Motor DC 12V 8MM D7 Axis Gearbox Reducer 6V 24V Self-locking Reverse Gearbox Length 25MM Low Speed Micro Motor
+24V Bracket Motor, 90RPM, Other, CHINA
+US $12.50x1
+
 ### Dør modell med laserbarrier
 
 Bygge en dør-modell (uten kontrollskap). Denne kan etterpå bli brukt av elevene som "garasjeport" eller "heisdør".  
