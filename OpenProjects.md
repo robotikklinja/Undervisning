@@ -56,6 +56,8 @@ Vi har også små girete motorer
 
 ![image](https://github.com/user-attachments/assets/b0fea8ad-9ad9-4329-b885-08cefd66697b)
 
+https://www.aliexpress.com/item/1005005463819387.html
+
 JGY370 Worm Gear Motor DC 12V 8MM D7 Axis Gearbox Reducer 6V 24V Self-locking Reverse Gearbox Length 25MM Low Speed Micro Motor
 24V Bracket Motor, 150RPM, Other, CHINA
 US $12.50x1
