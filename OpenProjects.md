@@ -121,6 +121,38 @@ Ferdigstille stajsonen. Mulighet at øve seg på regulering.
 * Prøve Av/På regulering med PLS. Datalogging, energibruk og temeperatur. 
 * Lage elevoppgaver.
 
+### Filament-lagrings-stajson
+
+3D-printer filament trekker til seg fukt fra luften og kvaliteten på print blir redusert. 
+For å fikse det så kan man tørke filamentet med et varmeelement og en vifte. Det finnes en masse ferdige løsninger og DIY-resept.
+
+Eksempel:
+
+https://all3dp.com/2/best-filament-dryer-diy-dry-box/
+
+![image](https://github.com/user-attachments/assets/75cf162a-75d8-4fcb-ad04-a98497eec1b6)
+
+
+https://3d-print-files.com/instruction-diy-filament-dry-box-the-anybox-v2/
+
+![image](https://github.com/user-attachments/assets/2adbcf7d-2184-4727-90b4-b33045853d1e)
+
+
+Utstyr:
+Kontroller. Kan bruke en PLS eller Arduino
+
+Tempmåler. Obligatorisk Vi har for eksempel PT1000 element
+Fuktmåler (nice to have) 
+	Finnes integrerte med tempmåler for arduino: https://www.kjell.com//no/produkter/elektro-og-verktoy/arduino/arduino-tilbehor/temperatur-og-luftfuktighetssensor-for-arduino-p87086?gclid=Cj0KCQiA-JacBhC0ARIsAIxybyNGc9SVYx43SXQXpULnlAyK_M_nAhLJMLT7Mm6PrhUatSerlXwuNAUaAhN0EALw_wcB&gclsrc=aw.ds
+Varmeelement:
+Jeg (jakob) har flere 24V kjeramiske varmeelement med innebygget overhettningsbeskyttelse:
+https://www.aliexpress.com/item/4000479062611.html?spm=a2g0o.order_list.order_list_main.371.2e8c1802SgJTab
+
+Vifte: Vi har 5V og 24V vifter 
+
+Boks: Det velger/fikser eleven, finnes mange måter å løse problemet på.![image](https://github.com/user-attachments/assets/f9629225-5825-440a-ba62-247aded380ff)
+
+
 ### Liten varme-av-på-reguleringsstasjon
 
 Liten varmeregulerings-rigg for av-på regulering, uten egen PLS. Kan også kobles til ekstern regulator!
