@@ -217,8 +217,11 @@ Prøve lage ting med lav-temp plastik og leire. Inspirasjon [Necromoulds](https:
 
 ## ARDUINO
 
-### Mobil robot(gressklipper) med LIDAR
+### Beltebil
 
+Vi har tilgang på beltebilene fra vg1. De kan programmeres for å løse oppgaver autonomt med sensorer eller med fjernstyring via kamera (telerobotikk)
+
+### Mobil robot(gressklipper) med LIDAR
 
  Vi har kjøpt inn to LIDAR sensorer som vi ønsker å montere på robotgressklipperen. Først bør vi teste dem med PC / arduino. 
  
@@ -313,3 +316,25 @@ Vi har:
 Koble motoren til en noe, et svingjul med brems eller en vifte så at vi får en trygg belastning vi kan endre litt på. 
 Bruke PLS for å lage en fartsholder som kompenserer for endring i belasting. 
 
+## Tævlings-robot for Worlskills in mobile robotics
+
+Vi har en "WorldSkills Shanghai 2022 Mobile Robotics"-robot
+
+![image](https://github.com/user-attachments/assets/b00efc9c-de4e-4324-ae3d-197e993e6d15)
+
+Den har "omi-directional" hjul som gjør at den kan kjøre i mange valgfri rettning.
+
+https://youtu.be/2LQpXzpvWv4?si=Qm26Rp_q4IB3Ahel
+
+Les hva som er gjort før på kuben:
+https://github.com/robotikklinja/WorldskillsMobileRobotics
+
+Controllern er kan programmeres i Java, C++, Python, LabVIEW, eller ROS (Robot Operating System)
+https://www.studica.co/vmx-robotics-controller
+
+Nå så samler den støv i et skap, for at vi ikke vet hvor mye arbeid det er å komme i gang. Meget mulig at det er kjempe-enkelt!  
+
+Hvis man ønsker å arbeide med den så skall målet først være på at gjøre den tilgjengelig for andre etterkommende elever.
+Når en kom-igang manual for robotikk-elever finnes på plass her på github så kan bruke den for å løse morsomme oppgaver.
+
+OBS! Husk å laste opp kopier av alle filer, datablader og tillvirker-manualer her, det er ikke noen garanti at tillverkeren altid har dem tillgjengelig online i fremtiden.
