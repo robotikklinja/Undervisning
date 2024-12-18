@@ -338,3 +338,11 @@ Hvis man ønsker å arbeide med den så skall målet først være på at gjøre 
 Når en kom-igang manual for robotikk-elever finnes på plass her på github så kan bruke den for å løse morsomme oppgaver.
 
 OBS! Husk å laste opp kopier av alle filer, datablader og tillvirker-manualer her, det er ikke noen garanti at tillverkeren altid har dem tillgjengelig online i fremtiden.
+
+## RoboComp
+
+Kuben skall være vært for RoboComp 2026 i februar. Vi trenger robot-oppgaver for en uke for 4 elever fra forskjellige lender uten tidligere erfaring av roboter. 
+
+Inspirasjon
+
+http://robocup.website/
