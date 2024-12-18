@@ -495,6 +495,8 @@ Inspirasjon
 
 http://robocup.website/
 
+https://github.com/robotikklinja/Undervisning/blob/master/2024-25%20Informasjonsbrev%20RoboComp%20deltakelse%20SV%20(1).pdf
+
 <!-- TOC --><a name="kuka-robot"></a>
 ## KUKA robot
 
@@ -503,3 +505,4 @@ Integrere sikkerhetsburets sensorer og lås, og kollisions-gripper med roboten. 
 Jonas, lærer på 3AUA har tatt tak i dette prosjektet. Det blir flyttet ned i 1etg.
 
 https://github.com/robotikklinja/KUKA-KR6-R700-sixx
+
