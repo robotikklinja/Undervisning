@@ -9,6 +9,8 @@
          - [Skyvedør](#skyvedør)
    * [UR robots](#ur-robots)
       + [Humanoid robot-overkropp](#humanoid-robot-overkropp)
+         - [Torso](#torso)
+         - [Hode ](#hode)
    * [Videreutvikle eller arbeide med ferdige stasjoner](#videreutvikle-eller-arbeide-med-ferdige-stasjoner)
       + [Veiecelle med samlebånd](#veiecelle-med-samlebånd)
       + [Flow and level control](#flow-and-level-control)
@@ -161,6 +163,81 @@ Her kan man gjøre mye forksjelligt
 ### Humanoid robot-overkropp
 
 3D-printe et hode til robot-kroppen som kommer, TEK-lager pidestal, ferdig i Januar 2025. Ev motorisere det, legge til mic og kamera. 
+
+Vi kan lage noe som ligner på dette:
+![image](https://github.com/user-attachments/assets/1954fdab-a757-49aa-9441-58bf3412f3b8)
+
+
+https://youtu.be/Sq1QZB5baNw?si=I7clyEtGbZXPwZCC
+
+Base-torso:
+Sveises på kuben, bestillt
+
+Hode:
+3D-printe, legg till steppers og servo. Bevegelser styres av dedikert mikrokontroller. ESP32 som lytter til modbus?
+
+Armer:
+UR3, vi har to. E-series blir host. Dom snakker modus sammen og får instruksjoner via det. Pre-programmere moves og korrdinatsystem og sett den til å vente på modbus. 
+
+HMI I/O:
+Konfigurere først en AI med vanlig laptop, webcam, mic or høyttaler. Den sender enkle kommandon til modbus-server, den har en liste som den kan velge fra. Når det virker, få det at virke med webcam, mic og høyttaler i hode.
+
+Spørsmål:
+
+Hva ønsker vi at den skall kunne gjøre på en åpen dag? 
+Ideer:
+Spille jenga med motspiller
+Spille tic tac toe eller motsv, kanske den med ferget disks i vertikale løp
+Packe noe, eller lage noe på kommando. 
+Servere noe, velge fra et bord med ting.
+
+
+<!-- TOC --><a name="torso"></a>
+#### Torso
+Fikk en idee til et sammerbeids-prosjekt for neste år. Dette kan bli godt rekruteringsmaterial for TEK og robotikklinja.
+Jeg har lyst på en humanoid-robot-overkropp. Vi har armene allerede og hode kan vi lage sen av 3D-print og webcamera.
+ 
+Torbjørn (lærer på TEK vg1) og mine elever er allerede  i gang at lære seg å bruke «smart-kamera» til forskjellige ting, og en mikrofon med røststyring ala Siri/Alexa må vi jo klare.
+Vi har to UR3-armer som er passe like store som armene til et menneske:
+ ![image](https://github.com/user-attachments/assets/a45342f2-028d-4e58-822f-30c1926f6887)
+Sånn skulle det kunne se ut montert på bordet som dere allerede hjulpet oss at bygge:
+ ![image](https://github.com/user-attachments/assets/dbe3fad1-9b0a-4075-b584-615afa1d462a)
+
+Fusion link https://a360.co/4adXei3
+
+Her er bilde på bare torso uten noe feste-hull
+ ![image](https://github.com/user-attachments/assets/4ab4f3f8-0a8e-44c0-9da6-38686321c28d)
+
+Det er egentlig bare en  boks med noe profiler på innsiden for styrke. Den trenger ikke å være veldig presis, bare den blir stiv og uten skarpe detaljer på fremsiden. 
+Den kan ha gjengete feste-hull eller være åpen på baksiden så at man kan sette mutter.
+ ![image](https://github.com/user-attachments/assets/8776974e-54f5-4512-8772-d99956b912d1)
+
+Lignende prosjekter:
+[ADAM The Waiter: Table Setting Task - RoboticsLab UC3M
+ 
+ADAM The Waiter: Table Setting Task - RoboticsLab UC3M](https://www.youtube.com/watch?v=9KxwCN91rDA)
+UR3 dual arm robot stand €2,310.64 EUR
+![image](https://github.com/user-attachments/assets/42a1d2e7-0208-4fe6-b0de-7e677cff9d82)
+
+https://vention.io/designs/ur3-dual-arm-robot-stand-3683![image](https://github.com/user-attachments/assets/974517f5-e519-4ada-aa6f-63c899b486d6)
+
+<!-- TOC --><a name="hode"></a>
+#### Hode 
+Idee:
+Elever 3-printer et hode som passer til robot-torsoen som sveis lager for oss. 
+
+Så må vi kobler opp det til kamera, mic og høyttaler og trener opp en AI modell at gjøre noe.
+
+
+Ref: 
+InMoov Amazing First 3D printed robot Open Source
+
+https://www.youtube.com/watch?v=H4Z09edx52E
+
+inMoov Head https://inmoov.fr/head-3
+Do calibrator first!!
+
+![image](https://github.com/user-attachments/assets/55887124-f823-4c89-b233-c2203a51a679)
 
 <!-- TOC --><a name="videreutvikle-eller-arbeide-med-ferdige-stasjoner"></a>
 ## Videreutvikle eller arbeide med ferdige stasjoner
