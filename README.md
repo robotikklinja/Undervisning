@@ -1,7 +1,45 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Oversikt åpne prosjekter](#oversikt-åpne-prosjekter)
+   * [Hydralikk-anlegg](#hydralikk-anlegg)
+   * [Trykkluft-stasjon](#trykkluft-stasjon)
+   * [Heis-system](#heis-system)
+      + [Heis-modell](#heis-modell)
+      + [Dør modell med laserbarrier](#dør-modell-med-laserbarrier)
+         - [Skyvedør](#skyvedør)
+- [Videreutvikle eller arbeide med ferdige stasjoner](#videreutvikle-eller-arbeide-med-ferdige-stasjoner)
+      + [Veiecelle med samlebånd](#veiecelle-med-samlebånd)
+      + [Flow and level control](#flow-and-level-control)
+      + [Kjøleskap](#kjøleskap)
+      + [Filament-lagrings-stajson](#filament-lagrings-stajson)
+      + [Liten varme-av-på-reguleringsstasjon](#liten-varme-av-på-reguleringsstasjon)
+      + [Styresystem-øvningsbrett](#styresystem-øvningsbrett)
+      + [Varme-reguleringsstasjon](#varme-reguleringsstasjon)
+   * [ARDUINO](#arduino)
+      + [Beltebil](#beltebil)
+      + [Mobil robot(gressklipper) med LIDAR](#mobil-robotgressklipper-med-lidar)
+      + [Hector CNC](#hector-cnc)
+      + [Pen Plotter](#pen-plotter)
+      + [Stepper-samlebånd](#stepper-samlebånd)
+      + [Kulebane](#kulebane)
+   * [BECKOFF PLS](#beckoff-pls)
+      + [Beckoff PLS](#beckoff-pls-1)
+      + [Anodiseringsanlegg](#anodiseringsanlegg)
+      + [KUKA robot](#kuka-robot)
+   * [Helt nye elev-stasjoner](#helt-nye-elev-stasjoner)
+      + [Fartskontroll av induksjonsmotor med DC-generator](#fartskontroll-av-induksjonsmotor-med-dc-generator)
+      + [DC motor med hastighetsstyring](#dc-motor-med-hastighetsstyring)
+   * [Tævlings-robot for Worlskills in mobile robotics](#tævlings-robot-for-worlskills-in-mobile-robotics)
+   * [RoboComp](#robocomp)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="oversikt-åpne-prosjekter"></a>
 # Oversikt åpne prosjekter
 Vi har en hel del åpne prosjekter på robotikklinja. Dette er en grov oversikt. Jakob.Rockenberger@Osloskolen.no supplerer gjerne med mer informasjon etter intresse. Spør på teams/mail om det dere er intressert i så fyller jeg på her.
 
 
+<!-- TOC --><a name="hydralikk-anlegg"></a>
 ## Hydralikk-anlegg
 
 ![image](https://github.com/user-attachments/assets/a69ba6ce-b3d5-490a-924a-ad64a779c990)
@@ -14,6 +52,7 @@ Mer ønsket funksjoner:
 * Återkobling fra frekvensomformer om belastning til PLS. (ukomplisert, detekterer når den når endeposisjon)
 * Digitale eller analoge sensorer for å måle posisjon av stemplene med PLS. Har linjere sensorer og vinkelssensorer, det vanskelige er å montere dem på en trygg måte. 
 
+<!-- TOC --><a name="trykkluft-stasjon"></a>
 ## Trykkluft-stasjon
 ![image](https://github.com/user-attachments/assets/14d59034-0faa-4cb8-8da0-21aee9e31cc0)
 
@@ -23,8 +62,10 @@ Mer ønsket funksjoner:
 
 * Ev bygge en egen ny mini-fabrikk. Finns massor med variert utstyr.
 
+<!-- TOC --><a name="heis-system"></a>
 ## Heis-system
 
+<!-- TOC --><a name="heis-modell"></a>
 ### Heis-modell
 
 ![image](https://github.com/user-attachments/assets/0ce8b8a7-be36-4e89-867d-8e5f92a86d00)
@@ -66,6 +107,7 @@ JGY370 Worm Gear Motor DC 12V 8MM D7 Axis Gearbox Reducer 6V 24V Self-locking Re
 24V Bracket Motor, 90RPM, Other, CHINA
 US $12.50x1
 
+<!-- TOC --><a name="dør-modell-med-laserbarrier"></a>
 ### Dør modell med laserbarrier
 
 Bygge en dør-modell (uten kontrollskap). Denne kan etterpå bli brukt av elevene som "garasjeport" eller "heisdør".  
@@ -83,6 +125,7 @@ Vi har delene, du designer, bygger og kobler. Du trenger å gjøre litt utviklin
 
 Alt kobles til rekkeklemmmer så kan elever koble opp mot det og lage egen kode.
 
+<!-- TOC --><a name="skyvedør"></a>
 #### Skyvedør
 Mulig videreutvikling er å lage en skyvedør. Vi kan bruke linjere glidelager eller [alu profiler](https://www.kjell.com/no/produkter/elektro-og-verktoy/elektronikk/aluminiumprofiler/ratrig-startpakke-med-12-aluminiumsprofiler-p88158)
 
@@ -108,14 +151,17 @@ Her kan man gjøre mye forksjelligt
 * Integrere sikkerhets-utstyr: laserbarrier [RoboComp](https://robocup.website/) Oslo oppgaven [youtube](https://youtu.be/gx-mJjD3hwU)
 * 3D-printe et hode til robot-kroppen som kommer. Ev motorisere det, legge til mic og kamera. 
 
+<!-- TOC --><a name="videreutvikle-eller-arbeide-med-ferdige-stasjoner"></a>
 # Videreutvikle eller arbeide med ferdige stasjoner
 
+<!-- TOC --><a name="veiecelle-med-samlebånd"></a>
 ### Veiecelle med samlebånd
 
 Testkjøre og gjøre det til en bruklig elev-stasjon med eksempler på oppgaver.
 
 https://github.com/robotikklinja/veiecelle
 
+<!-- TOC --><a name="flow-and-level-control"></a>
 ### Flow and level control
 
 "Vanntanken"
@@ -131,6 +177,7 @@ Eventuellt:
 https://github.com/robotikklinja/Flow-and-level-control
 
 
+<!-- TOC --><a name="kjøleskap"></a>
 ### Kjøleskap
 
 Ferdigstille stajsonen. Mulighet at øve seg på regulering. 
@@ -139,6 +186,7 @@ Ferdigstille stajsonen. Mulighet at øve seg på regulering.
 * Prøve Av/På regulering med PLS. Datalogging, energibruk og temeperatur. 
 * Lage elevoppgaver.
 
+<!-- TOC --><a name="filament-lagrings-stajson"></a>
 ### Filament-lagrings-stajson
 
 3D-printer filament trekker til seg fukt fra luften og kvaliteten på print blir redusert. 
@@ -171,6 +219,7 @@ Vifte: Vi har 5V og 24V vifter
 Boks: Det velger/fikser eleven, finnes mange måter å løse problemet på.![image](https://github.com/user-attachments/assets/f9629225-5825-440a-ba62-247aded380ff)
 
 
+<!-- TOC --><a name="liten-varme-av-på-reguleringsstasjon"></a>
 ### Liten varme-av-på-reguleringsstasjon
 
 Liten varmeregulerings-rigg for av-på regulering, uten egen PLS. Kan også kobles til ekstern regulator!
@@ -195,6 +244,7 @@ Aliexpress PTC-varmeelement, 24V blir maks 70-80C
 
 ![image](https://github.com/user-attachments/assets/f6e8bd55-8fed-4f95-aa01-9d60eba3e571)
 
+<!-- TOC --><a name="styresystem-øvningsbrett"></a>
 ### Styresystem-øvningsbrett
 
 Øvningsbrett med PI&D diagram uten PLS. Elevene lager PLS program som styrer processen med av på regulering. Brummundal har ferdige oppgaer
@@ -209,18 +259,22 @@ Repliker disse, lage platem laminer illustrasjon, fest bryter og lys, koble til 
 
 Kan være en elevbedrift! 
 
+<!-- TOC --><a name="varme-reguleringsstasjon"></a>
 ### Varme-reguleringsstasjon
 
 Fordyping i regulering, HMI eller CNC eller 3D-printe moulds for å produsere ting med stasjonen. 
 
 Prøve lage ting med lav-temp plastik og leire. Inspirasjon [Necromoulds](https://necromolds.com/)
 
+<!-- TOC --><a name="arduino"></a>
 ## ARDUINO
 
+<!-- TOC --><a name="beltebil"></a>
 ### Beltebil
 
 Vi har tilgang på beltebilene fra vg1. De kan programmeres for å løse oppgaver autonomt med sensorer eller med fjernstyring via kamera (telerobotikk)
 
+<!-- TOC --><a name="mobil-robotgressklipper-med-lidar"></a>
 ### Mobil robot(gressklipper) med LIDAR
 
  Vi har kjøpt inn to LIDAR sensorer som vi ønsker å montere på robotgressklipperen. Først bør vi teste dem med PC / arduino. 
@@ -231,12 +285,14 @@ Vi har tilgang på beltebilene fra vg1. De kan programmeres for å løse oppgave
 
 https://www.aliexpress.com/item/1005004698244864.html
 
+<!-- TOC --><a name="hector-cnc"></a>
 ### Hector CNC
 
 Få opp CNCn i bruk, som Pen-plotter, pneumatic-vaccum-picker eller fresemaskin.
 
 https://github.com/robotikklinja/cnc-fres
 
+<!-- TOC --><a name="pen-plotter"></a>
 ### Pen Plotter
 
 Den sitter montert på tavla i vg2-klasserom. Kan brukes for matte/programmering/fysikk-fordyping.
@@ -244,16 +300,19 @@ Bygge en fast montert "hjerne" til den. Gjøre ting bedre. Alt utstyr finns på 
 
 https://www.youtube.com/watch?v=T0jwdrgVBBc
 
+<!-- TOC --><a name="stepper-samlebånd"></a>
 ### Stepper-samlebånd
 
 Vi har et samlebånd koblet til en steppermotor. Det kan styres via arduino. 
 
+<!-- TOC --><a name="kulebane"></a>
 ### Kulebane
 
 Vi har en lite kulebane med en steppermotor. Det kan videreutvikles og styres via arduino.
 
 videreutvikling: Koble inn sensorer. Legge til knapper. 
 
+<!-- TOC --><a name="beckoff-pls"></a>
 ## BECKOFF PLS
 
 Vår tidligere lærer-kollega og inisjativtaker bak robotikklinja James Fox arbeider nå for Beckhoff 
@@ -264,6 +323,7 @@ Vore det ikke en perfekt person at spørre om utplassering for?
 
 Mail: j.fox@beckhoff.no 
 
+<!-- TOC --><a name="beckoff-pls-1"></a>
 ### Beckoff PLS
 
 * Vi har mange fine Beckhoff-PLSer med forskjellige ekspansjons-moduler og HMI touch screens. 
@@ -272,6 +332,7 @@ Mail: j.fox@beckhoff.no
 
 https://github.com/robotikklinja/Beckhoff-PLS
 
+<!-- TOC --><a name="anodiseringsanlegg"></a>
 ### Anodiseringsanlegg
 
 Vi har et halvferdig anlegg som skulle styres av Beckhoff PLS.
@@ -282,6 +343,7 @@ https://github.com/robotikklinja/anodiseringsanlegg
 
 https://github.com/robotikklinja/Beckhoff-PLS
 
+<!-- TOC --><a name="kuka-robot"></a>
 ### KUKA robot
 
 Integrere sikkerhetsburets sensorer og lås, og kollisions-gripper med roboten. Bruker Bechoff IOs og ev Beckhoff-PLS.
@@ -291,10 +353,12 @@ https://github.com/robotikklinja/KUKA-KR6-R700-sixx
 
 https://github.com/robotikklinja/Beckhoff-PLS
 
+<!-- TOC --><a name="helt-nye-elev-stasjoner"></a>
 ## Helt nye elev-stasjoner
 
 Vi har utstyret men har ikke begynt å bygge disse ennå
 
+<!-- TOC --><a name="fartskontroll-av-induksjonsmotor-med-dc-generator"></a>
 ### Fartskontroll av induksjonsmotor med DC-generator
 
 Bygge en regulerings-øvings-rigg der en induksjonsmotor genererer strøm.
@@ -307,6 +371,7 @@ Oppskrift:
 
 Alternativt utførende er å bruke en stor BLDC som generator, då kan vi bruke en Solid state relay eller Solid state regulator for å dynamisk koble inn lasten. 
 
+<!-- TOC --><a name="dc-motor-med-hastighetsstyring"></a>
 ### DC motor med hastighetsstyring
 
 Bygge en regulerings-øvings-rigg med 24V DC motor.
@@ -316,6 +381,7 @@ Vi har:
 Koble motoren til en noe, et svingjul med brems eller en vifte så at vi får en trygg belastning vi kan endre litt på. 
 Bruke PLS for å lage en fartsholder som kompenserer for endring i belasting. 
 
+<!-- TOC --><a name="tævlings-robot-for-worlskills-in-mobile-robotics"></a>
 ## Tævlings-robot for Worlskills in mobile robotics
 
 Vi har en "WorldSkills Shanghai 2022 Mobile Robotics"-robot
@@ -339,6 +405,7 @@ Når en kom-igang manual for robotikk-elever finnes på plass her på github så
 
 OBS! Husk å laste opp kopier av alle filer, datablader og tillvirker-manualer her, det er ikke noen garanti at tillverkeren altid har dem tillgjengelig online i fremtiden.
 
+<!-- TOC --><a name="robocomp"></a>
 ## RoboComp
 
 Kuben skall være vært for RoboComp 2026 i februar. Vi trenger robot-oppgaver for en uke for 4 elever fra forskjellige lender uten tidligere erfaring av roboter. 
