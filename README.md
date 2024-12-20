@@ -16,6 +16,7 @@
       + [Flow and level control](#flow-and-level-control)
       + [Kjøleskap](#kjøleskap)
    * [ARDUINO](#arduino)
+      + [Dancing lights](#Dancing_lights)
       + [Beltebil](#beltebil)
       + [Mobil robot(gressklipper) med LIDAR](#mobil-robotgressklipper-med-lidar)
       + [Hector CNC](#hector-cnc)
@@ -278,6 +279,19 @@ Ferdigstille stajsonen. Mulighet at øve seg på regulering.
 
 <!-- TOC --><a name="arduino"></a>
 ## ARDUINO
+
+<!-- TOC --><a name="Dancing_lights"></a>
+### Dancing lights
+
+Robotikk har et LED-lystårn med opp til 300 programmerbare LEDs. Den kan programmeres til å reagere på mensker, signaler, lyd eller noe annet gøy.
+
+![image](https://github.com/user-attachments/assets/baacc25a-0de0-4189-803b-b981989389f0)
+
+les mer på:
+https://github.com/Jaknil/Dancing_lights/blob/main/README.md
+
+Video der den reagerer på elektrisk felt fra mennesker i bevegelse
+https://youtube.com/shorts/MSAI1wNTsRs
 
 <!-- TOC --><a name="beltebil"></a>
 ### Beltebil
