@@ -485,7 +485,11 @@ Vi har en "WorldSkills Shanghai 2022 Mobile Robotics"-robot
 
 Den har "omi-directional" hjul som gjør at den kan kjøre i mange valgfri rettning.
 
+Demo: 
 https://youtu.be/2LQpXzpvWv4?si=Qm26Rp_q4IB3Ahel
+
+Instruksjons-videos:
+https://www.youtube.com/StudicaRobotics
 
 Les hva som er gjort før på kuben:
 https://github.com/robotikklinja/WorldskillsMobileRobotics
