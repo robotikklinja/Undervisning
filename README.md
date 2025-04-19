@@ -47,7 +47,7 @@ Vi har en hel del åpne prosjekter på robotikklinja. Dette er en grov oversikt.
 <!-- TOC --><a name="hydralikk-anlegg"></a>
 ## Hydralikk-anlegg
 
-Bygges opp av Eskil fra 3ELR 2024 HT
+Påbegynt opp av Eskil fra 3ELR 2024 HT - 2025 VT
 
 https://github.com/robotikklinja/Hydraulikk-anlegg
 
@@ -59,7 +59,8 @@ Minimum: Skåpet trenger en frekvensomformer og PLS for styring av en induksjons
 
 Mer ønsket funksjoner:
 * Återkobling fra frekvensomformer om belastning til PLS. (ukomplisert, detekterer når den når endeposisjon)
-* Digitale eller analoge sensorer for å måle posisjon av stemplene med PLS. Har linjere sensorer og vinkelssensorer, det vanskelige er å montere dem på en trygg måte. 
+* Temperaturmåling
+* Digitale og analoge sensorer for å måle posisjon av stemplene med PLS. Har vinkelssensor og braketter klare. Her er 3d-modell av hvordan den analoge sensoren skall monteres https://a360.co/3XKyN8c 
 
 <!-- TOC --><a name="trykkluft-stasjon"></a>
 ## Trykkluft-stasjon
