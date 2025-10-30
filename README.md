@@ -1,6 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
 - [Oversikt åpne prosjekter](#oversikt-åpne-prosjekter)
+   * [Pull-up-bar](#Pull-up-bar)
    * [Hydralikk-anlegg](#hydralikk-anlegg)
    * [Trykkluft-stasjon](#trykkluft-stasjon)
    * [Heis-system](#heis-system)
@@ -42,6 +43,13 @@
 <!-- TOC --><a name="oversikt-åpne-prosjekter"></a>
 # Oversikt åpne prosjekter
 Vi har en hel del åpne prosjekter på robotikklinja. Dette er en grov oversikt. Jakob.Rockenberger@Osloskolen.no supplerer gjerne med mer informasjon etter intresse. Spør på teams/mail om det dere er intressert i så fyller jeg på her.
+
+
+## Pull-up-bar
+<!-- TOC --><a name="Pull-up-bar"></a>
+![Pull up bar](https://github.com/robotikklinja/Undervisning/blob/master/bilder/Pull_up_bar.png)
+
+Vi tregner en pull up bar, hvorfor ikke sette opp en display med rekorden og en sensor som teller at de blir ordentlig gjort. 
 
 
 <!-- TOC --><a name="hydralikk-anlegg"></a>
