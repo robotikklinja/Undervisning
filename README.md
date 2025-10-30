@@ -55,19 +55,19 @@ Vi tregner en pull up bar, hvorfor ikke sette opp en display med rekorden og en 
 <!-- TOC --><a name="hydralikk-anlegg"></a>
 ## Hydralikk-anlegg
 
-Påbegynt opp av Eskil fra 3ELR 2024 HT - 2025 VT
+Styreskapet er ygget opp av Eskil fra 3ELR 2024 HT - 2025 VT
 
-https://github.com/robotikklinja/Hydraulikk-anlegg
+Skåpet har en frekvensomformer og PLS for styring av en induksjonsmotor og to 24V ventiler. Knapp-boks og nødstop.
+
+https://github.com/robotikklinja/Hydraulikk-anlegg 
 
 ![image](https://github.com/user-attachments/assets/a69ba6ce-b3d5-490a-924a-ad64a779c990)
 
-*Bygg et styreskap til vårt nye Hydralikk-anlegg!* 
-
-Minimum: Skåpet trenger en frekvensomformer og PLS for styring av en induksjonsmotor og to 24V ventiler. Knapp-boks og nødstop. 
-
-Mer ønsket funksjoner:
-* Återkobling fra frekvensomformer om belastning til PLS. (ukomplisert, detekterer når den når endeposisjon)
-* Temperaturmåling
+Utviklingsmuligheter:
+* *KRITISK* Fikse transportskaden på en av ventilene, 24V ledene er brukket av til en av ventilene, anlegget er død tils det blir fikset. Vi kan bruke dremel for å komme til lednings-stumpene jeg regner med at de må loddes. Pass på å ikke puste inn plastik-støv eller røyk. 
+* Sjekke at indusksjonsmotoren er koblet i Delta, jeg misstenker at den er stjernekoblet.
+* Programmere digital signal fra frekvensomformer om belastning til PLS. (ukomplisert, detekterer når den når endeposisjon)
+* Temperaturmåling med PT100, den overhetter rask, varsle førs bruker, sen senk effekte og til sist slå av motoren for å unngå overhetning. 
 * Digitale og analoge sensorer for å måle posisjon av stemplene med PLS. Har vinkelssensor og braketter klare. Her er 3d-modell av hvordan den analoge sensoren skall monteres https://a360.co/3XKyN8c 
 
 <!-- TOC --><a name="trykkluft-stasjon"></a>
